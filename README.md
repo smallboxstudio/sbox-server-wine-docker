@@ -60,5 +60,3 @@ All arguments are passed directly to `sbox-server.exe`:
 The image is built in two stages:
 1. **Builder** (Debian) - Installs steamcmd, Wine, winetricks (win10, vcrun2022, dotnet10), and downloads the s&box dedicated server (app 1892930)
 2. **Runtime** (Alpine) - Lightweight image with only Wine and gnutls, runs the server via Wine
-# sbox-server-wine-docker
-# sbox-server-wine-docker
